@@ -4,14 +4,127 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Landing Page</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <header class="primary-header">
+      <div class="container">
+        <a href="#"><img src="images/logo.svg" alt="Manage"></a>
+        <nav class="primary-navigation">
+          <ul aria-label="primary" role="list" class="nav-list">
+            <li><a href="#">Precios</a></li>
+            <li><a href="#">Productos</a></li>
+            <li><a href="#">Acerca de Nosotros</a></li>
+            <li><a href="#">Carreras</a></li>
+            <li><a href="#">Comunidad</a></li>
+          </ul>
+        </nav>
+        <button class="button">Get Started</button>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <div class="container">
+          <div class="even-columns">
+            <div>
+              <h1 class="fs-primary-heading fw-bold">Unirnos para crear mejores productos.</h1>
+            <p>Manage hace más simple planificar día a día mientras se mantiene el objetivo del grupo a la vista.</p>
+            <button class="button">Get Started</button>
+            </div>
+            <div>
+              <img src="images/illustration-intro.svg" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="container">
+          <div class="even-columns">
+            <div>
+              <h2 class="fs-secondary-heading fw-bold">¿Qué tiene de diferente Manage?</h2>
+              <p>Manage provee toda la funcionalidad que tu equipo necesita, sin la complejidad. nuestro software está hecho a medida para los equipos de productos digitales modernos.</p>
+            </div>
+            <div>
+              <ul class="numbered-titles" role="list">
+                <li><h3 class="fs-600 fw-bold">Realizar un seguimiento de toda la empresa</h3>
+                <p>Vea cómo sus tareas diarias encajan en la visión más amplia. Vaya desde el seguimiento del progreso en el nivel de hito hasta el más mínimo detalle. 
+                  Nunca pierdas de vista el panorama general otra vez.</p></li>
+
+                <li><h3 class="fs-600 fw-bold">Informes integrados avanzados</h3>
+                <p>Establezca estimaciones de entrega internas y realice un seguimiento del progreso hacia los objetivos de la empresa. 
+                  Nuestro tablero personalizable lo ayuda a crear los informes que necesita para mantener informadas a las partes claves interesadas.</p></li>
+                
+                <li><h3 class="fs-600 fw-bold">Todo lo que necesita en un solo lugar</h3>
+                <p>Deje de saltar de un servicio a otro para comunicarse, guardar archivos, rastrear tareas y compartir documentos.
+                  Manage ofrece una solución all-in-one para la productividad de tu equipo.</p></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="carousel">
+        <h2 class="fs-secondary-heading">Qué dijeron nuestros clientes</h2>
+        <!--carrusel-->
+        <button class="button">Get Started</button>
+      </section>
+
+      <section class="cta | bg-primary-400 text-neutral-100">
+        <div class="container">
+          <div class="even-columns">
+            <div>
+              <button class="button" data-type="inverted">Get Started</button></div>
+            <div>
+
+            </div>
+          </div>
+          <p class="fs-secondary-heading fw-bold">Simplifica como tú equipo trabaja ¡Hoy!</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-neutral-900 text-neutral-100">
+      <div class="container">
+        <div class="even-columns">
+          <div>
+            <a href="#"><img src="images/logo.svg" alt=""></a>
+            <ul role="list" aria-label="Social links">
+              <li><a aria-label="facebook" href="#"></a></li>
+              <li><a aria-label="youtube" href="#"></a></li>
+              <li><a aria-label="tiwtter" href="#"></a></li>
+              <li><a aria-label="pinterest" href="#"></a></li>
+              <li><a aria-label="instagram" href="#"></a></li>
+            </ul>
+          </div>
+          <div>
+            <nav class="footer-nav">
+              <ul aria-label="Footer" role="list">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Precios</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Sobre Nosotros</a></li>
+                <li><a href="#">Carreras</a></li>
+                <li><a href="#">Comunidad</a></li>
+                <li><a href="#">Politicas de privacidad</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div>
+            <form action="">
+              <input type="email"><button class="button">Enviar</button>
+              <p>Argentina 2022</p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+
     <script type="module" src="/main.js"></script>
-    <h1>hello</h1>
   </body>
 </html>
