@@ -8,7 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="//unpkg.com/a11y-slider@latest/dist/a11y-slider.css" /> <!--A11Y slider-->
+    <script src="https://unpkg.com/a11y-slider@latest/dist/a11y-slider.js" defer></script><!--A11Y slider-->
+    <link rel="stylesheet" href="style.css"/>
   </head>
   <body>
     <header class="primary-header">
@@ -92,9 +94,44 @@
         </div>
       </section>
 
-      <section class="carousel | padding-block-700">
-        <h2 class="fs-secondary-heading">Qué dijeron nuestros clientes</h2>
+      <section class="carousel | padding-block-700 text-center">
+        <h2 class="fs-secondary-heading">Qué dijeron nuestros usuarios</h2>
         <!--carrusel-->
+        <ul class="slider">
+          <li>
+            <img src="images/avatar-anisha.png" alt="Anisha">
+            <div class="slider-content | flow" style="--flow-spacer: 1rem">
+            <h3 class="fw-bold">Anisha Li</h3>
+            <p>"Manage ha renovado el flujo de trabajo de nuestro equipo.
+            La capacidad de mantener la visibilidad en elementos más grandes en todo momento mantiene a todos motivados."</p>
+            </div>
+          </li>
+          <li>
+            <img src="images/avatar-ali.png" alt="Ali">
+            <div class="slider-content | flow" style="--flow-spacer: 1rem">
+            <h3 class="fw-bold">Ali Bravo</h3>
+            <p>"Hemos podido cancelar muchas otras suscripciones 
+              desde que usamos Manage. 
+              No hay más confusión entre canales y todos están mucho más enfocados."</p>
+            </div>
+          </li>
+          <li>
+            <img src="images/avatar-richard.png" alt="Richard">
+            <div class="slider-content | flow" style="--flow-spacer: 1rem">
+            <h3 class="fw-bold">Richard Watts</h3>
+            <p>"Manage nos permite brindar estructura y procesos. 
+                Nos mantiene organizados y enfocados. ¡No puedo dejar de recomendarlos a todas las personas con las que hablo!"</p>
+            </div>
+          </li>
+          <li>
+            <img src="images/avatar-shanai.png" alt="Shanai">
+            <div class="slider-content | flow" style="--flow-spacer: 1rem">
+            <h3 class="fw-bold">Shanai Gough</h3>
+            <p>"Su software nos permite rastrear, administrar y colaborar en nuestros proyectos desde cualquier lugar. 
+                Mantiene a todo el equipo sincronizado sin ser intrusivo."</p>
+            </div>
+          </li>
+        </ul>
         <button class="button">Get Started</button>
       </section>
 
