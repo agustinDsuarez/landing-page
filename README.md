@@ -1,5 +1,7 @@
 # landing-page
 
+[![Ver online](https://img.shields.io/badge/-Ver%20Online-red?style=for-the-badge&logo=googlechrome&logoColor=white)](https://landing-page-babarzi.vercel.app)
+
 Este proyecto fue creado con ViteJs
 
 En el directorio del proyecto correr:
@@ -15,3 +17,5 @@ Lanzando la aplicación en development mode.
 En el navegador se debería poder acceder a la app desde el puerto 5173
 
 ### http://localhost:5173/
+
+[![Mis otros proyectos](https://img.shields.io/badge/-Ver%20otros%20repos-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AgustinDsuarez)
