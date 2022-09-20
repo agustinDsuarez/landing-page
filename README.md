@@ -18,4 +18,4 @@ En el navegador se debería poder acceder a la app desde el puerto 5173
 
 ### http://localhost:5173/
 
-[![Mis otros proyectos](https://img.shields.io/badge/-Ver%20otros%20repos-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AgustinDsuarez)
+[![Mis otros proyectos](https://img.shields.io/badge/-Mis%20otros%20proyectos-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AgustinDsuarez)
