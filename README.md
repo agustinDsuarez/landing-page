@@ -1,6 +1,6 @@
 # 💼 Lading Page
 
-Creación de una Landing Page basada en los diseños que provee el desafío de FrontEnd Mentor y sus recursos (🌎 https://www.frontendmentor.io/challenges/manage-landing-page-SLXqC6P5).
+Creación de una Landing Page basada en los diseños que provee el desafío de FrontEnd Mentor y sus recursos (🌎 https://www.frontendmentor.io/challenges/manage-landing-page-SLXqC6P5 👈).
 
 
 [![Ver online](https://img.shields.io/badge/-Ver%20Online-red?style=for-the-badge&logo=googlechrome&logoColor=white)](https://landing-page-babarzi.vercel.app)
