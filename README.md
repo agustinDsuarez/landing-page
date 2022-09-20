@@ -6,7 +6,7 @@ Creación de una Landing Page basada en los diseños que provee el desafío de F
 
 [![Ver online](https://img.shields.io/badge/-Ver%20Online-red?style=for-the-badge&logo=googlechrome&logoColor=white)](https://landing-page-babarzi.vercel.app)
 
-Este proyecto fue creado con ViteJs
+# Este proyecto fue creado con ViteJs
 
 En el directorio del proyecto correr:
 
