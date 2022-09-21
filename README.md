@@ -1,4 +1,4 @@
-# 💼 Lading Page
+# 💼 Landing Page
 
 Creación de una Landing Page basada en los diseños que provee el desafío de FrontEnd Mentor y sus recursos (🌎 https://www.frontendmentor.io/challenges/manage-landing-page-SLXqC6P5 👈).
 
