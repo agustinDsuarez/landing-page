@@ -22,7 +22,6 @@ En el navegador se debería poder acceder a la app desde el puerto 5173
 ### http://localhost:5173/
 
 ## 🎨 También se usó
-* 💅 styled-components.
 * 🎠 A11Y Slider.
 ***
 
